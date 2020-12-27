@@ -6,6 +6,10 @@ project(OpenGLTemplate)
 add_subdirectory(External/glad)
 add_subdirectory(External/glfw)
 
+
+set(dir ./External/glad)
+add_subdirectory(./Doc)
+
 find_package(OpenGL REQUIRED)
 
 
